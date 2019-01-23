@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact to Oleg Sokolov</title>
+  </head>
+  <body>
+    <h1>My Contact details: </h1>
+    <p><b>oscar.sokolov@gmail.com</b></p>
+    <p>Phone: 12345 </p>
+    <hr>
+    <form action="mailto:oscar.sokolov@gmail.com" method="post" enctype="text/plain">
+      <div class="nameBox">
+         <label>Your name:</label><br>
+         <input name="yourName:" type="text" value="">
+      </div>
+
+     <div class="emailBox">
+       <label for="emailAddress">Your e-mail address</label><br>
+       <input name="yourEmailAddress" type="email" size="64" maxLength="64" required
+              placeholder="username@gmail.com" pattern=".+@gmail.com"
+              title="Please provide only a Gmail mail address">
+     </div>
+
+     <div class="messageBox">
+       <label for="message">Request</label><br>
+       <textarea name="yourMessage" cols="80" rows="8" required
+                 placeholder="My shoes are too tight, and I have forgotten how to dance."></textarea>
+     </div>
+      <input type="submit" value="Send Request">
+    </form>
+
+  </body>
+</html>
